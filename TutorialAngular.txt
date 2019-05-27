@@ -1,0 +1,26 @@
+
+Video 34:
+ng new myApp
+Answer no and css
+
+Video 46:
+ng g c components/shared/navbar
+
+Video 47. Instalando el bootstrap cuando
+usamos el Angular-CLI
+15 min
+npm install bootstrap --save
+npm install jquery --save
+npm install popper.js --save
+
+For the warning: npm audit fix
+npm show tar version
+"tar": "^4"
+Checar el package-lock.json
+https://stackoverflow.com/questions/55638180/how-to-fix-npm-package-tar-with-high-vulnerability-about-arbitrary-file-overwri
+
+/Users/miguelmorales/Documents/Angular/02-SPA/node_modules/bootstrap/dist/css/bootstrap.min.css
+
+Kill server: sudo kill `sudo lsof -t -i:4200`
+
+"src/styles1.css",
