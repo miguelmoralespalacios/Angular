@@ -1,3 +1,8 @@
+Compile On Save:
+On tsconfig.json look for "compileOnSave"
+
+
+
 
 Video 34:
 ng new myApp
@@ -24,3 +29,14 @@ https://stackoverflow.com/questions/55638180/how-to-fix-npm-package-tar-with-hig
 Kill server: sudo kill `sudo lsof -t -i:4200`
 
 "src/styles1.css",
+
+
+Video 48:Configurando el navbar y otros componentes
+
+Generate component w/o inline styles: ng g c components/shared/navbar -is
+
+disable spec generation at the time of creating things using Angular-cli by adding "--no-spec" or skipTests
+
+
+
+
