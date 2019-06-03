@@ -26,6 +26,7 @@ https://stackoverflow.com/questions/55638180/how-to-fix-npm-package-tar-with-hig
 
 /Users/miguelmorales/Documents/Angular/02-SPA/node_modules/bootstrap/dist/css/bootstrap.min.css
 
+
 Kill server: sudo kill `sudo lsof -t -i:4200`
 
 "src/styles1.css",
@@ -37,6 +38,45 @@ Generate component w/o inline styles: ng g c components/shared/navbar -is
 
 disable spec generation at the time of creating things using Angular-cli by adding "--no-spec" or skipTests
 
+50. RouterLink y RouterLinkActive - Completando las rutas
+
+ [routerLink]="['home']"
+
+53. Creando nuestro primer servicio - HeroesService
+
+En el NgModule app.module se declara el servicio en la parte de providers
+private _heroesService:HeroesService
+
+54. Página de Heroes - Diseño con *ngFor
+version angularJS img src="{{heroe.img}}" tb funciona en Angular
+Nueva manera [src]="heroe.img"
+
+55. Rutas con parametros - Router
+The ngOnInit is called after the constructor is executed.
+ { path:'heroe/:id', component: HeroeComponent },
+heroe es el elemento 0 y id el elemento 1 del arreglo de path para el routerLink
+
+56. Recibiendo parámetros por URL - ActivatedRoute
+import { ActivatedRoute } from '@angular/router';
+
+58. Resolución de la tarea práctica #1 - Componente del héroe
+<img *ngIf="heroe.casa=='DC'" src="assets/img/DC.png" [alt]="heroe.casa">
+        <img *ngIf="heroe.casa!='DC'" src="assets/img/Marvel.png" [alt]="heroe.casa">
+
+59. Pipes: Transformación visual de la data
+Pipes transform displayed values within a template.
+Available pipes
+*currency
+*date
+*uppercase
+*json
+*limitTo
+*lowercase
+*async
+*decimal
+*percent
 
 
+60. Buscador de Héroes
 
+Cambiar form por div para no recargar pagina
