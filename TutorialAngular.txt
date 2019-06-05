@@ -80,3 +80,11 @@ Available pipes
 60. Buscador de Héroes
 
 Cambiar form por div para no recargar pagina
+
+
+
+64. @Input - Recibir información de un componente padre a un hijo
+miguelmorales$ ng g c components/heroeTarjeta --spec=false
+
+66. Arreglar detalles de la búsqueda
+idx?:number; propiedad de objecto opcional
